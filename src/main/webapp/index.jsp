@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>Akshat DevOps</title>
     <style>
         /* Add your CSS styles here */
         body {
@@ -37,7 +37,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to My Work</h1>
     </header>
     <nav>
         <ul>
