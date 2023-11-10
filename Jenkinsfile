@@ -1,10 +1,13 @@
-pipeline {
-    agent any 
-    stages {
-        stage('Stage 1') {
-            steps {
-                echo 'Hello world!' 
-            }
-        }
-    }
+pipeline{
+   Agent any
+   options {
+       buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
+}
+   stages{
+     stage('Build') {
+        steps {
+           sh 'java -version'
+       }  
+   }  
+}
 }
