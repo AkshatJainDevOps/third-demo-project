@@ -11,7 +11,7 @@ pipeline{
    }
      stage('maven build') {
         when {
-          branch "feature"
+          branch "local_release_branch"
         }
         steps {
            sh 'mvn install'
